@@ -10,7 +10,7 @@ export default function HeroSection() {
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-tight text-[#1d262b]">
             <span className="block">Hi. I am a</span>
             <span className="block italic font-serif font-light">
-              Influencer Marketing Manager
+              PR/Influencer Marketing Manager
             </span>
           </h1>
         </div>

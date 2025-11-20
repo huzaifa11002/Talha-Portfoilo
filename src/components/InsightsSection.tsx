@@ -8,12 +8,12 @@ export default function InsightsSection() {
   const [animatedTotal, setAnimatedTotal] = useState(0);
 
   const insights = [
-    { label: "PAK", value: 125, color: "bg-[#426633]", stroke: "#426633" },
-    { label: "USA", value: 450, color: "bg-[#181E4C]", stroke: "#181E4C" },
-    { label: "UK", value: 120, color: "bg-[#F3636D]", stroke: "#F3636D" },
-    { label: "DE", value: 140, color: "bg-[#24313D]", stroke: "#24313D" },
-    { label: "CA", value: 110, color: "bg-[#D20D24]", stroke: "#D20D24" },
-    { label: "Others", value: 150, color: "bg-[#DECC67]", stroke: "#DECC67" },
+    { label: "PAK", value: 200, color: "bg-[#426633]", stroke: "#426633" },
+    { label: "USA", value: 700, color: "bg-[#181E4C]", stroke: "#181E4C" },
+    { label: "UK", value: 350, color: "bg-[#F3636D]", stroke: "#F3636D" },
+    { label: "DE", value: 190, color: "bg-[#24313D]", stroke: "#24313D" },
+    { label: "CA", value: 400, color: "bg-[#D20D24]", stroke: "#D20D24" },
+    { label: "Others", value: 300, color: "bg-[#DECC67]", stroke: "#DECC67" },
   ];
 
   const totalValue = insights.reduce((sum, item) => sum + item.value, 0);
